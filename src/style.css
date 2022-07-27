@@ -114,12 +114,9 @@ p {
 }
 
 @media (max-width: 960px) {
-  h1 {
-    font-size: 44px;
-    line-height: 2;
-  }
-
-  h2 {
+  h1,
+  h2,
+  .main h1 {
     font-size: 44px;
   }
   .content {
