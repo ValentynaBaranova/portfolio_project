@@ -23,6 +23,13 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 24px;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+
 h4 {
   font-size: 48px;
   font-family: var(--heading-font-family);
@@ -44,7 +51,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -74,8 +81,9 @@ p {
 
 .content,
 .contact,
-.about {
-  padding: 100px 60px;
+.about,
+.work_content {
+  padding: 90px 60px;
 }
 
 .email-link {
@@ -107,13 +115,6 @@ p {
   text-align: center;
 }
 
-.work_content h3 {
-  font-size: 24px;
-  margin: 20px 0 0;
-  font-family: var(--default-font-family);
-  font-weight: bold;
-}
-
 .work_content p {
   font-size: 14px;
 }
@@ -141,11 +142,8 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav a:active {
-  color: var(--branding-color);
-}
-
-nav a:hover {
+nav a:hover,
+nav li.active a {
   color: var(--branding-color);
 }
 
