@@ -98,6 +98,21 @@ p {
   font-family: var(--default-font-family);
 }
 
+.work_content {
+  text-align: center;
+}
+
+.work_content h3 {
+  font-size: 24px;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+
+.work_content p {
+  font-size: 14px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
