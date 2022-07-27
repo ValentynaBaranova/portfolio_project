@@ -86,7 +86,8 @@ p {
   text-decoration: underline;
 }
 
-.main h1 {
+.main h1,
+.contact h1 {
   font-size: 50px;
   line-height: 80px;
 }
@@ -109,6 +110,37 @@ p {
 
 .work_content p {
   font-size: 14px;
+}
+
+nav img {
+  max-width: 150px;
+  max-height: 40px;
+}
+
+nav ul {
+  margin: 5px 0 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 30px;
+  list-style: none;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:active {
+  color: var(--branding-color);
+}
+
+nav a:hover {
+  color: var(--branding-color);
 }
 
 @media (max-width: 960px) {
