@@ -203,6 +203,11 @@ footer .btn-branding {
   background-color: var(--branding-color);
 }
 
+.my_photo {
+  padding: 90px 0px;
+  max-width: 300px;
+}
+
 @media (max-width: 960px) {
   h1,
   h2,
