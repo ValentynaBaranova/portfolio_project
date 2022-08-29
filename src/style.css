@@ -207,6 +207,9 @@ footer .btn-branding {
   padding: 90px 0px;
   max-width: 300px;
 }
+.sertif {
+  margin: 0 auto;
+}
 
 @media (max-width: 960px) {
   h1,
